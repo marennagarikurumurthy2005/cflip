@@ -1,6 +1,6 @@
 let image = document.getElementById('img')
 let button = document.getElementById('btn')
-let audio = new Audio('/audio/salaar.mp3')
+let audio = new Audio('./audio/salaar.mp3')
 let previous = '';
 
 button.addEventListener('click',()=>{
