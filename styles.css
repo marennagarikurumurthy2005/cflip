@@ -98,3 +98,34 @@ button:hover{
     
 
 
+.footer{
+    width:100%;
+    padding:20px 0;
+    margin-top:40px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+
+    background-color:beige;
+
+    font-size:16px;
+    font-weight:500;
+}
+
+.footer p{
+    margin:0;
+}
+
+.footer a{
+    color:#E1306C;
+    font-size:28px;
+
+    transition:0.3s ease;
+}
+
+.footer a:hover{
+    transform:scale(1.2);
+    color:#c13584;
+}
