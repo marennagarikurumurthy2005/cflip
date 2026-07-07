@@ -23,10 +23,10 @@ button.addEventListener('click',()=>{
     setTimeout(() => {
     let result;
     if(previous === 'head'){
-        result = Math.random() < 0.75 ? 'tail' : 'head';
+        result = Math.random() < 0.5 ? 'tail' : 'head';
     }
     else{
-        result = Math.random() < 0.75 ? 'head' : 'tail';
+        result = Math.random() < 0.5 ? 'head' : 'tail';
     }
     previous = result;
     image.src = `images/${result}.jpg`;
